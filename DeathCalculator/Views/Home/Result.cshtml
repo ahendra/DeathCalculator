@@ -1,0 +1,9 @@
+﻿@model DeathCalculator.Models.ResultViewModel
+@{
+    ViewBag.Title = "Result";
+}
+<h2>@ViewBag.Title</h2>
+<h3>The Average People Killed By The Witch Is = @Model.Result</h3>
+<div>
+    @Html.ActionLink("Reset", "Index")
+</div>
